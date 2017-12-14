@@ -19,6 +19,7 @@ RUN apt-get install -y python3-tk
 
 # install numpy & matplotlib
 RUN pip3 install numpy
+RUN pip3 install pandas
 RUN apt-get update && \
     pip3 install matplotlib && \
     rm -rf /var/lib/apt/lists/*

@@ -4,6 +4,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import sys
 import numpy as np
+import pandas as pd
 from collections import Sequence
 
 from wordcount import load_word_counts
